@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuOpt1"
+        android:title="选项菜单一"/>
+    <item
+        android:id="@+id/menuOpt2"
+        android:title="选项菜单二">
+        <menu>
+            <item
+                android:id="@+id/menuOpt2_1"
+                android:title="子菜单2_1"/>
+            <item
+                android:id="@+id/menuOpt2_2"
+                android:title="子菜单2_2"/>
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/menuOpt3"
+        android:title="选项菜单三">
+        <menu>
+            <item
+                android:id="@+id/menuOpt3_1"
+                android:title="子菜单3_1"/>
+            <item
+                android:id="@+id/menuOpt3_2"
+                android:title="子菜单3_2"/>
+        </menu>
+
+    </item>
+</menu>

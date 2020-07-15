@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuCtx1"
+        android:title="上下文菜单一"/>
+    <item
+        android:id="@+id/menuCtx2"
+        android:title="上下文菜单二">
+    </item>
+    <item
+        android:id="@+id/menuCtx3"
+        android:title="上下文菜单三"/>
+</menu>
