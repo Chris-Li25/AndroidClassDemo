@@ -1,0 +1,2 @@
+rootProject.name='Chronometer'
+include ':app'
